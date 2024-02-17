@@ -1,0 +1,28 @@
+.appContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.chatsContainer {
+  border: 1px solid black;
+  width: 30%;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .chatsContainer {
+    width: 100%;
+  }
+}
+.inputBox {
+  height: 30px;
+  width: 80%;
+}
+.line {
+  border: 1px solid black;
+}
+.unOrderedLIst {
+  display: flex;
+  flex-direction: column;
+}
