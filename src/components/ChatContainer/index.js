@@ -43,7 +43,6 @@ class ChatContainer extends Component {
       <div className="appContainer">
         <div className="chatsContainer">
           <h1>Chats</h1>
-          <input type="search" className="inputBox" />
           <hr className="line" />
           <ul className="unOrderedLIst">
             {userDetailsList.map((eachItem) => (
